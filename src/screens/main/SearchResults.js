@@ -44,7 +44,6 @@ export const SearchResults = ({ navigation }) => {
         setResults(res.data.results);
         setLoading(false);
         setErrMsg(null);
-        console.log(res.data.results);
       })
       .catch((err) => {
         console.log(err);
